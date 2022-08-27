@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Jogo da Memoria</title>
+  </head>
+  <body>
+    <div id="inicio" class="inicio">
+      <h1>Jogo da Memória</h1>
+      <div>
+        <label>Digite seu nome</label>
+        <input type="text" />
+        <button id="btnStart">Jogar!</button>
+      </div>
+    </div>
+
+    <div id="game">
+      <div id="score" class="hide">
+        <p>
+          Olá, <span id="name"></span>! Você tem
+          <span id="points"></span> pontos!
+        </p>
+      </div>
+
+      <div id="board"></div>
+    </div>
+
+    <script src="./js/MemoryGame.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
